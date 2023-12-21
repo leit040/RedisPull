@@ -56,7 +56,6 @@ func (c *Connections) LoadDomains() error {
 	c.d = configs
 	return nil
 }
-
 func (c *Connections) initConnections() {
 	for domain, config := range c.d {
 		connect, err := connect(config)
