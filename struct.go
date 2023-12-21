@@ -37,7 +37,7 @@ func NewConnections() (*Connections, error) {
 	return &con, nil
 }
 
-func (c *Connections) getConnection(domain string) (Connect, bool) {
+func (c *Connections) GetConnection(domain string) (Connect, bool) {
 	conn, err := c.m[domain]
 	return conn, err
 }
