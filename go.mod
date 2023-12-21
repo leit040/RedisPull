@@ -1,4 +1,4 @@
-module RedisPull
+module github.com/leit040/RedisPull
 
 go 1.21
 
