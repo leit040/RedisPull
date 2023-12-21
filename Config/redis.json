@@ -1,0 +1,20 @@
+{
+  "domain.com": {
+    "host": "redis:6339",
+    "password": "password",
+    "db": 0
+  },
+  "domain.net":{
+  "host": "redis:6339",
+  "password": "password",
+  "db": 0
+},
+  "domain.org":{
+    "host": "redis:6339",
+    "password": "password",
+    "db": 0
+  }
+
+
+
+}
