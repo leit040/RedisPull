@@ -28,6 +28,9 @@ func NewConnections() (*Connections, error) {
 	}
 
 	var con Connections
+	con.d = make(map[string]ConfigData)
+	con.m = make(map[string]Connect)
+
 	err1 := con.LoadDomains()
 	if err1 != nil {
 		return &con, err1
